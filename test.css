@@ -1,0 +1,975 @@
+.tab-tentang-kami {
+  position: relative;
+  width: 1280px;
+  height: 4449px;
+  background-color: rgba(255, 255, 255, 1.0);
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 133, 152, 1) 0%,
+    rgba(0, 29, 45, 1) 100%
+  );
+}
+
+.tab-tentang-kami .NAVBAR-ATAS {
+  display: flex;
+  flex-direction: column;
+  width: 1237px;
+  height: 70px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 11px 25px;
+  position: absolute;
+  top: 33px;
+  left: 21px;
+  background-color: #ffffff;
+  border-radius: 34px;
+}
+
+.tab-tentang-kami .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 48px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -10.00px;
+}
+
+.tab-tentang-kami .text-wrapper {
+  position: relative;
+  width: 192px;
+  height: 32px;
+  font-family: var(--paragraph-p2-semibold-font-family);
+  font-weight: var(--paragraph-p2-semibold-font-weight);
+  color: var(--blackbl-60);
+  font-size: var(--paragraph-p2-semibold-font-size);
+  letter-spacing: var(--paragraph-p2-semibold-letter-spacing);
+  line-height: var(--paragraph-p2-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p2-semibold-font-style);
+}
+
+.tab-tentang-kami .div {
+  display: flex;
+  width: 729px;
+  height: 32px;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+}
+
+.tab-tentang-kami .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -3.00px;
+  margin-bottom: -1.00px;
+  font-family: var(--paragraph-p3-bold-font-family);
+  font-weight: var(--paragraph-p3-bold-font-weight);
+  color: var(--blackbl-60);
+  font-size: var(--paragraph-p3-bold-font-size);
+  letter-spacing: var(--paragraph-p3-bold-letter-spacing);
+  line-height: var(--paragraph-p3-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p3-bold-font-style);
+}
+
+.tab-tentang-kami .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -2.00px;
+  margin-bottom: -2.00px;
+}
+
+.tab-tentang-kami .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--paragraph-p3-regular-font-family);
+  font-weight: var(--paragraph-p3-regular-font-weight);
+  color: var(--blackbl-50);
+  font-size: var(--paragraph-p3-regular-font-size);
+  letter-spacing: var(--paragraph-p3-regular-letter-spacing);
+  line-height: var(--paragraph-p3-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p3-regular-font-style);
+}
+
+.tab-tentang-kami .famicons-chevron {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.tab-tentang-kami .frame-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -2.00px;
+  margin-bottom: -2.00px;
+  margin-right: -7.00px;
+}
+
+.tab-tentang-kami .div-wrapper {
+  display: flex;
+  width: 180px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px 45px;
+  position: relative;
+  background-color: var(--secondarysc-60);
+  border-radius: 34px;
+}
+
+.tab-tentang-kami .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  background: linear-gradient(
+    184deg,
+    rgba(3, 95, 109, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: var(--paragraph-p3-bold-font-family);
+  font-weight: var(--paragraph-p3-bold-font-weight);
+  color: transparent;
+  font-size: var(--paragraph-p3-bold-font-size);
+  letter-spacing: var(--paragraph-p3-bold-letter-spacing);
+  line-height: var(--paragraph-p3-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p3-bold-font-style);
+}
+
+.tab-tentang-kami .FOOTERRRR {
+  position: absolute;
+  width: 1280px;
+  height: 789px;
+  top: 3660px;
+  left: 0;
+}
+
+.tab-tentang-kami .overlap {
+  position: relative;
+  height: 789px;
+}
+
+.tab-tentang-kami .wave {
+  position: absolute;
+  width: 1280px;
+  height: 788px;
+  top: 0;
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.tab-tentang-kami .group {
+  position: absolute;
+  width: 1280px;
+  height: 789px;
+  top: 0;
+  left: 0;
+  transform: rotate(-180deg);
+}
+
+.tab-tentang-kami .line {
+  position: absolute;
+  width: 1020px;
+  height: 1px;
+  top: 413px;
+  left: 131px;
+  object-fit: cover;
+}
+
+.tab-tentang-kami .frame-4 {
+  display: inline-flex;
+  align-items: center;
+  gap: 28px;
+  position: absolute;
+  top: 266px;
+  left: 70px;
+}
+
+.tab-tentang-kami .text-wrapper-5 {
+  position: relative;
+  width: 229px;
+  font-family: var(--heading-h4-bold-font-family);
+  font-weight: var(--heading-h4-bold-font-weight);
+  color: #000000;
+  font-size: var(--heading-h4-bold-font-size);
+  letter-spacing: var(--heading-h4-bold-letter-spacing);
+  line-height: var(--heading-h4-bold-line-height);
+  font-style: var(--heading-h4-bold-font-style);
+}
+
+.tab-tentang-kami .p {
+  position: relative;
+  width: 540px;
+  margin-top: -1.00px;
+  font-family: var(--paragraph-p3-regular-font-family);
+  font-weight: var(--paragraph-p3-regular-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p3-regular-font-size);
+  letter-spacing: var(--paragraph-p3-regular-letter-spacing);
+  line-height: var(--paragraph-p3-regular-line-height);
+  font-style: var(--paragraph-p3-regular-font-style);
+}
+
+.tab-tentang-kami .frame-5 {
+  display: flex;
+  width: 316px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 22px 56px;
+  position: relative;
+  background-color: #d9d9d9;
+  border-radius: 40px;
+}
+
+.tab-tentang-kami .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.50px;
+  font-family: var(--paragraph-p2-semibold-font-family);
+  font-weight: var(--paragraph-p2-semibold-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p2-semibold-font-size);
+  letter-spacing: var(--paragraph-p2-semibold-letter-spacing);
+  line-height: var(--paragraph-p2-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p2-semibold-font-style);
+}
+
+.tab-tentang-kami .group-2 {
+  position: absolute;
+  width: 1010px;
+  height: 220px;
+  top: 450px;
+  left: 134px;
+}
+
+.tab-tentang-kami .group-3 {
+  position: absolute;
+  width: 131px;
+  height: 220px;
+  top: 0;
+  left: 0;
+}
+
+.tab-tentang-kami .ellipse {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 30.2px;
+  border: 1px solid;
+  border-color: var(--blackbl-10);
+}
+
+.tab-tentang-kami .ellipse-2 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 80px;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 30.2px;
+  border: 1px solid;
+  border-color: var(--blackbl-10);
+}
+
+.tab-tentang-kami .ellipse-3 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 160px;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 30.2px;
+  border: 1px solid;
+  border-color: var(--blackbl-10);
+}
+
+.tab-tentang-kami .ellipse-4 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 71px;
+  background-color: #d9d9d9;
+  border-radius: 30.2px;
+  border: 1px solid;
+  border-color: var(--blackbl-10);
+}
+
+.tab-tentang-kami .ellipse-5 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 80px;
+  left: 71px;
+  background-color: #d9d9d9;
+  border-radius: 30.2px;
+  border: 1px solid;
+  border-color: var(--blackbl-10);
+}
+
+.tab-tentang-kami .group-4 {
+  position: absolute;
+  width: 752px;
+  height: 205px;
+  top: 0;
+  left: 258px;
+}
+
+.tab-tentang-kami .frame-6 {
+  position: absolute;
+  width: 752px;
+  height: 27px;
+  top: 0;
+  left: 0;
+}
+
+.tab-tentang-kami .text-wrapper-7 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: var(--paragraph-p4-semibold-font-family);
+  font-weight: var(--paragraph-p4-semibold-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-semibold-font-size);
+  letter-spacing: var(--paragraph-p4-semibold-letter-spacing);
+  line-height: var(--paragraph-p4-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-semibold-font-style);
+}
+
+.tab-tentang-kami .text-wrapper-8 {
+  position: absolute;
+  top: -1px;
+  left: 165px;
+  font-family: var(--paragraph-p4-semibold-font-family);
+  font-weight: var(--paragraph-p4-semibold-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-semibold-font-size);
+  letter-spacing: var(--paragraph-p4-semibold-letter-spacing);
+  line-height: var(--paragraph-p4-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-semibold-font-style);
+}
+
+.tab-tentang-kami .tutorial-solusi {
+  position: absolute;
+  top: -1px;
+  left: 345px;
+  font-family: var(--paragraph-p4-semibold-font-family);
+  font-weight: var(--paragraph-p4-semibold-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-semibold-font-size);
+  letter-spacing: var(--paragraph-p4-semibold-letter-spacing);
+  line-height: var(--paragraph-p4-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-semibold-font-style);
+}
+
+.tab-tentang-kami .text-wrapper-9 {
+  position: absolute;
+  top: -1px;
+  left: 531px;
+  font-family: var(--paragraph-p4-semibold-font-family);
+  font-weight: var(--paragraph-p4-semibold-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-semibold-font-size);
+  letter-spacing: var(--paragraph-p4-semibold-letter-spacing);
+  line-height: var(--paragraph-p4-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-semibold-font-style);
+}
+
+.tab-tentang-kami .kontak-kolaborasi {
+  top: -1px;
+  left: 668px;
+  font-family: var(--paragraph-p4-semibold-font-family);
+  font-weight: var(--paragraph-p4-semibold-font-weight);
+  position: absolute;
+  color: #000000;
+  font-size: var(--paragraph-p4-semibold-font-size);
+  letter-spacing: var(--paragraph-p4-semibold-letter-spacing);
+  line-height: var(--paragraph-p4-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-semibold-font-style);
+}
+
+.tab-tentang-kami .group-5 {
+  position: absolute;
+  width: 707px;
+  height: 171px;
+  top: 34px;
+  left: 0;
+}
+
+.tab-tentang-kami .group-6 {
+  position: absolute;
+  width: 113px;
+  height: 62px;
+  top: 0;
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.tab-tentang-kami .text-wrapper-10 {
+  top: 35px;
+  left: 0;
+  transform: rotate(-180deg);
+  font-family: var(--paragraph-p4-regular-font-family);
+  font-weight: var(--paragraph-p4-regular-font-weight);
+  position: absolute;
+  color: #000000;
+  font-size: var(--paragraph-p4-regular-font-size);
+  letter-spacing: var(--paragraph-p4-regular-letter-spacing);
+  line-height: var(--paragraph-p4-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-regular-font-style);
+}
+
+.tab-tentang-kami .visi-misi {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  transform: rotate(-180deg);
+  font-family: var(--paragraph-p4-regular-font-family);
+  font-weight: var(--paragraph-p4-regular-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-regular-font-size);
+  letter-spacing: var(--paragraph-p4-regular-letter-spacing);
+  line-height: var(--paragraph-p4-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-regular-font-style);
+}
+
+.tab-tentang-kami .group-7 {
+  position: absolute;
+  width: 134px;
+  height: 132px;
+  top: 4px;
+  left: 147px;
+  transform: rotate(180deg);
+}
+
+.tab-tentang-kami .text-wrapper-11 {
+  position: absolute;
+  top: 105px;
+  left: 0;
+  transform: rotate(-180deg);
+  font-family: var(--paragraph-p4-regular-font-family);
+  font-weight: var(--paragraph-p4-regular-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-regular-font-size);
+  letter-spacing: var(--paragraph-p4-regular-letter-spacing);
+  line-height: var(--paragraph-p4-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-regular-font-style);
+}
+
+.tab-tentang-kami .text-wrapper-12 {
+  position: absolute;
+  top: 70px;
+  left: 29px;
+  transform: rotate(-180deg);
+  font-family: var(--paragraph-p4-regular-font-family);
+  font-weight: var(--paragraph-p4-regular-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-regular-font-size);
+  letter-spacing: var(--paragraph-p4-regular-letter-spacing);
+  line-height: var(--paragraph-p4-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-regular-font-style);
+}
+
+.tab-tentang-kami .text-wrapper-13 {
+  position: absolute;
+  top: 35px;
+  left: 77px;
+  transform: rotate(-180deg);
+  font-family: var(--paragraph-p4-regular-font-family);
+  font-weight: var(--paragraph-p4-regular-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-regular-font-size);
+  letter-spacing: var(--paragraph-p4-regular-letter-spacing);
+  line-height: var(--paragraph-p4-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-regular-font-style);
+}
+
+.tab-tentang-kami .text-wrapper-14 {
+  position: absolute;
+  top: 0;
+  left: 47px;
+  transform: rotate(-180deg);
+  font-family: var(--paragraph-p4-regular-font-family);
+  font-weight: var(--paragraph-p4-regular-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-regular-font-size);
+  letter-spacing: var(--paragraph-p4-regular-letter-spacing);
+  line-height: var(--paragraph-p4-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-regular-font-style);
+}
+
+.tab-tentang-kami .group-8 {
+  position: absolute;
+  width: 111px;
+  height: 167px;
+  top: 4px;
+  left: 472px;
+}
+
+.tab-tentang-kami .text-wrapper-15 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: var(--paragraph-p4-regular-font-family);
+  font-weight: var(--paragraph-p4-regular-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-regular-font-size);
+  letter-spacing: var(--paragraph-p4-regular-letter-spacing);
+  line-height: var(--paragraph-p4-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-regular-font-style);
+}
+
+.tab-tentang-kami .text-wrapper-16 {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  font-family: var(--paragraph-p4-regular-font-family);
+  font-weight: var(--paragraph-p4-regular-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-regular-font-size);
+  letter-spacing: var(--paragraph-p4-regular-letter-spacing);
+  line-height: var(--paragraph-p4-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-regular-font-style);
+}
+
+.tab-tentang-kami .text-wrapper-17 {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  font-family: var(--paragraph-p4-regular-font-family);
+  font-weight: var(--paragraph-p4-regular-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-regular-font-size);
+  letter-spacing: var(--paragraph-p4-regular-letter-spacing);
+  line-height: var(--paragraph-p4-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-regular-font-style);
+}
+
+.tab-tentang-kami .text-wrapper-18 {
+  position: absolute;
+  top: 105px;
+  left: 0;
+  font-family: var(--paragraph-p4-regular-font-family);
+  font-weight: var(--paragraph-p4-regular-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-regular-font-size);
+  letter-spacing: var(--paragraph-p4-regular-letter-spacing);
+  line-height: var(--paragraph-p4-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-regular-font-style);
+}
+
+.tab-tentang-kami .text-wrapper-19 {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  font-family: var(--paragraph-p4-regular-font-family);
+  font-weight: var(--paragraph-p4-regular-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-regular-font-size);
+  letter-spacing: var(--paragraph-p4-regular-letter-spacing);
+  line-height: var(--paragraph-p4-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-regular-font-style);
+}
+
+.tab-tentang-kami .group-9 {
+  position: absolute;
+  width: 70px;
+  height: 62px;
+  top: 4px;
+  left: 308px;
+  transform: rotate(180deg);
+}
+
+.tab-tentang-kami .overlap-group {
+  position: absolute;
+  width: 36px;
+  height: 27px;
+  top: 0;
+  left: 28px;
+}
+
+.tab-tentang-kami .text-wrapper-20 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-180deg);
+  font-family: var(--paragraph-p4-regular-font-family);
+  font-weight: var(--paragraph-p4-regular-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-p4-regular-font-size);
+  letter-spacing: var(--paragraph-p4-regular-letter-spacing);
+  line-height: var(--paragraph-p4-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-regular-font-style);
+}
+
+.tab-tentang-kami .group-10 {
+  position: absolute;
+  width: 116px;
+  height: 62px;
+  top: 4px;
+  left: 595px;
+}
+
+.tab-tentang-kami .rectangle {
+  position: absolute;
+  width: 1279px;
+  height: 78px;
+  top: 711px;
+  left: 1px;
+  background-color: var(--blackbl-10);
+}
+
+.tab-tentang-kami .frame-7 {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: absolute;
+  top: 736px;
+  left: 20px;
+}
+
+.tab-tentang-kami .meteor-icons {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.tab-tentang-kami .text-wrapper-21 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  background: linear-gradient(
+    184deg,
+    rgba(3, 95, 109, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: var(--paragraph-p4-medium-font-family);
+  font-weight: var(--paragraph-p4-medium-font-weight);
+  color: transparent;
+  font-size: var(--paragraph-p4-medium-font-size);
+  letter-spacing: var(--paragraph-p4-medium-letter-spacing);
+  line-height: var(--paragraph-p4-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-p4-medium-font-style);
+}
+
+.tab-tentang-kami .frame-8 {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: absolute;
+  top: 736px;
+  left: 855px;
+}
+
+.tab-tentang-kami .overlap-wrapper {
+  position: absolute;
+  width: 1564px;
+  height: 1143px;
+  top: 230px;
+  left: 90px;
+}
+
+.tab-tentang-kami .overlap-2 {
+  position: relative;
+  width: 1560px;
+  height: 1143px;
+}
+
+.tab-tentang-kami .overlap-group-wrapper {
+  position: absolute;
+  width: 1000px;
+  height: 1143px;
+  top: 0;
+  left: 560px;
+}
+
+.tab-tentang-kami .overlap-3 {
+  position: relative;
+  height: 1143px;
+}
+
+.tab-tentang-kami .group-11 {
+  position: absolute;
+  width: 1000px;
+  height: 1142px;
+  top: 0;
+  left: 0;
+}
+
+.tab-tentang-kami .overlap-group-2 {
+  position: relative;
+  height: 1142px;
+}
+
+.tab-tentang-kami .ellipse-6 {
+  position: absolute;
+  width: 1000px;
+  height: 971px;
+  top: 171px;
+  left: 0;
+  border-radius: 500px / 485.5px;
+  background: linear-gradient(
+    180deg,
+    rgba(150, 241, 246, 1) 0%,
+    rgba(240, 240, 240, 1) 100%
+  );
+}
+
+.tab-tentang-kami .ellipse-7 {
+  position: absolute;
+  width: 388px;
+  height: 397px;
+  top: 0;
+  left: 391px;
+  border-radius: 194px / 198.5px;
+  background: linear-gradient(
+    184deg,
+    rgba(3, 95, 109, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.tab-tentang-kami .ellipse-8 {
+  position: absolute;
+  width: 509px;
+  height: 441px;
+  top: 702px;
+  left: 327px;
+  background-color: #026274;
+  border-radius: 254.5px / 220.5px;
+}
+
+.tab-tentang-kami .text-wrapper-22 {
+  position: absolute;
+  width: 772px;
+  height: 192px;
+  top: 221px;
+  left: 3px;
+  font-family: var(--title-t2-bold-font-family);
+  font-weight: var(--title-t2-bold-font-weight);
+  color: #ffffff;
+  font-size: var(--title-t2-bold-font-size);
+  letter-spacing: var(--title-t2-bold-letter-spacing);
+  line-height: var(--title-t2-bold-line-height);
+  font-style: var(--title-t2-bold-font-style);
+}
+
+.tab-tentang-kami .text-wrapper-23 {
+  position: absolute;
+  width: 572px;
+  height: 72px;
+  top: 448px;
+  left: 0;
+  font-family: var(--paragraph-p1-bold-font-family);
+  font-weight: var(--paragraph-p1-bold-font-weight);
+  color: #ffffff;
+  font-size: var(--paragraph-p1-bold-font-size);
+  letter-spacing: var(--paragraph-p1-bold-letter-spacing);
+  line-height: var(--paragraph-p1-bold-line-height);
+  font-style: var(--paragraph-p1-bold-font-style);
+}
+
+.tab-tentang-kami .group-12 {
+  position: absolute;
+  width: 1115px;
+  height: 460px;
+  top: 1586px;
+  left: 90px;
+}
+
+.tab-tentang-kami .ellipse-9 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 23px;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 200px;
+}
+
+.tab-tentang-kami .group-13 {
+  position: absolute;
+  width: 699px;
+  height: 460px;
+  top: 0;
+  left: 420px;
+}
+
+.tab-tentang-kami .overlap-group-3 {
+  position: relative;
+  width: 695px;
+  height: 460px;
+}
+
+.tab-tentang-kami .text-wrapper-24 {
+  position: absolute;
+  width: 509px;
+  height: 129px;
+  top: 0;
+  left: 94px;
+  font-family: var(--heading-h3-semibold-font-family);
+  font-weight: var(--heading-h3-semibold-font-weight);
+  color: #ffffff;
+  font-size: var(--heading-h3-semibold-font-size);
+  text-align: center;
+  letter-spacing: var(--heading-h3-semibold-letter-spacing);
+  line-height: var(--heading-h3-semibold-line-height);
+  font-style: var(--heading-h3-semibold-font-style);
+}
+
+.tab-tentang-kami .langkahbiru-adalah {
+  position: absolute;
+  width: 695px;
+  height: 384px;
+  top: 76px;
+  left: 0;
+  font-family: var(--paragraph-p3-regular-font-family);
+  font-weight: var(--paragraph-p3-regular-font-weight);
+  color: #ffffff;
+  font-size: var(--paragraph-p3-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--paragraph-p3-regular-letter-spacing);
+  line-height: var(--paragraph-p3-regular-line-height);
+  font-style: var(--paragraph-p3-regular-font-style);
+}
+
+.tab-tentang-kami .group-14 {
+  position: absolute;
+  width: 1203px;
+  height: 443px;
+  top: 2172px;
+  left: 39px;
+}
+
+.tab-tentang-kami .group-wrapper {
+  position: relative;
+  width: 1211px;
+  height: 451px;
+  left: -4px;
+  background-image: url(./img/group-31.png);
+  background-size: 100% 100%;
+}
+
+.tab-tentang-kami .img {
+  position: absolute;
+  width: 1211px;
+  height: 451px;
+  top: 0;
+  left: 0;
+}
+
+.tab-tentang-kami .mask-group {
+  position: absolute;
+  width: 1567px;
+  height: 745px;
+  top: 2851px;
+  left: -119px;
+}
+
+.tab-tentang-kami .overlap-4 {
+  position: relative;
+  width: 1280px;
+  height: 745px;
+  left: 119px;
+  background-image: url(./img/mask-group.png);
+  background-size: 100% 100%;
+}
+
+.tab-tentang-kami .group-15 {
+  position: relative;
+  width: 668px;
+  height: 56px;
+  top: 524px;
+  left: 296px;
+}
+
+.tab-tentang-kami .overlap-group-4 {
+  position: relative;
+  width: 666px;
+  height: 56px;
+  background-image: url(./img/group-14.png);
+  background-size: 100% 100%;
+}
+
+.tab-tentang-kami .text-wrapper-25 {
+  position: absolute;
+  width: 650px;
+  top: 5px;
+  left: 16px;
+  font-family: var(--heading-h5-semibold-font-family);
+  font-weight: var(--heading-h5-semibold-font-weight);
+  color: #ffffff;
+  font-size: var(--heading-h5-semibold-font-size);
+  letter-spacing: var(--heading-h5-semibold-letter-spacing);
+  line-height: var(--heading-h5-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-h5-semibold-font-style);
+}
+
+.tab-tentang-kami .fluent-chevron-left-wrapper {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 8px;
+  position: absolute;
+  top: 8px;
+  left: 608px;
+  border-radius: 20px;
+  transform: rotate(180deg);
+  background: linear-gradient(
+    180deg,
+    rgba(249, 193, 178, 1) 0%,
+    rgba(147, 114, 105, 1) 100%
+  );
+}
+
+.tab-tentang-kami .fluent-chevron-left {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  transform: rotate(-180deg);
+}
