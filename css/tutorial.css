@@ -1,0 +1,178 @@
+body {
+  font-family: var(--paragraph-p2-semibold-font-family);
+  /* background-color: white;
+    margin: 54px 73px;
+    font-size:  var(--paragraph-p3-regular-font-size);
+    font-weight: var(--paragraph-p3-regular-font-weight); */
+
+  max-width: 1440px;
+  margin: 0;
+  background: linear-gradient(357deg, #2ea2b3 34.87%, #012332 97.52%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.upper {
+  margin: 0 !important;
+  background-image: url("../image/tutorial-navbar.jpg");
+  height: 902px;
+  padding-top: 54px;
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  margin: 0 !important;
+}
+.custom-hero {
+  height: 1178.0206298828125px;
+}
+.custom-hero h1 {
+  font-size: var(--heading-h2-semibold-font-size);
+  font-weight: var(--heading-h2-semibold-font-weight);
+  color: #ffffff;
+}
+.custom-hero p {
+  font-size: var(--paragraph-p2-semibold-font-size);
+  font-weight: var(--paragraph-p2-semibold-font-weight);
+  color: #ffffff;
+}
+.panduan {
+  padding-top: 200px;
+  height: 500px;
+  align-self: center;
+  justify-content: center;
+}
+.custom-hero .btn-cust {
+  font-size: 24px !important;
+  background-color: #ef4423;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px 30px;
+}
+
+/* VIDEO EDUKASI */
+.custom-videoED h4{
+  margin-top: 120px;
+  font-size: var(--heading-h5-bold-font-size);
+  font-weight: var(--heading-h5-bold-font-weight);
+}
+.custom-videoED .container p{
+  font-size: var(--paragraph-p3-medium-font-size);
+  font-weight: var(--paragraph-p3-medium-font-weight);
+}
+
+.gallery {
+  margin: 40px 0;
+  padding: 0;
+}
+.caption h5{
+  color: #FFF;
+  font-size: var(--paragraph-p2-medium-font-size);
+  font-weight: var(--paragraph-p2-medium-font-weight);
+}
+.caption p{
+  color: #FFF;
+  font-size: var(--paragraph-p4-light-font-size);
+  font-weight: var(--paragraph-p4-light-font-weight);
+}
+
+.slideshow-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+
+.slide {
+  display: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide .card {
+  /* margin: 0 !important; */
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  /* box-shadow: none; */
+  position: relative;
+  background: none;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+  text-align: left;
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-ed{
+  background: #ff5722 !important;
+  color: white !important;
+}
+.btn-favorite {
+  font-size: 24px;
+  background: #ff5722 !important;
+  color: white !important;
+  background: none;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-favorite:hover {
+  color: red;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 12px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  user-select: none;
+  border-radius: 30%;
+  z-index: 1;
+}
+
+.next {
+  right: 0;
+}
+
+.prev {
+  left: 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
