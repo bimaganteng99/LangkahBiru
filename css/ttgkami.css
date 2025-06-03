@@ -41,12 +41,19 @@ body {
 /* TENTANG */
 .tentang-section {
   position: relative;
-  padding: 90px;
+  /* padding: 0px; */
   margin-bottom: 100px;
+  margin: 0, 20px, 100px, 20px !important;
+  padding: 0 !important;
 }
+.img-container{
+  width: 400px;
+  height: 400px;
+}
+
 .img-container img {
   /* align-self:self-start; */
-  width: 400px;
+  width: 100%;
   height: auto;
   object-fit: contain;
   display: block;
@@ -117,7 +124,7 @@ body {
   body {
     width: 100%;
     margin: 73px auto;
-    padding: 0 80px;
+    /* padding: 0 80px; */
   }
 
   .hero {
@@ -125,7 +132,7 @@ body {
   }
 
   .hero .container {
-    margin: 73px auto;
+    margin: 450px 54px;
     max-width: 900px;
     height: auto;
   }
@@ -146,32 +153,35 @@ body {
 @media screen and (max-width: 430px) {
   body {
     width: 100%;
-    margin: 20px 10px;
-    padding: 0;
+    margin: 0 !important;
+    /* padding: 0; */
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    /* background-attachment: scroll; */
     height: auto;
 
   }
 
+  .navbar{
+    margin: 23px 0 !important; 
+  }
   .hero {
     height: auto;
+    margin: 100px 0;
   }
 
+  .hero h1{
+    font-size: var(--paragraph-p1-bold-font-size) ;
+    font-weight: var( --paragraph-p1-bold-font-weight);
+  }
+   .hero p{
+    padding-right:150px ;
+    font-size: var(--caption-c1-bold-font-size);
+    font-weight: var( --caption-c1-bold-font-weight);
+  }
   .hero .container {
     margin: 40px 20px;
     max-width: 100%;
     height: auto;
-  }
-
-  .hero h1 {
-    font-size: 24px;
-    text-align: center;
-  }
-
-  .hero p {
-    font-size: 16px;
-    text-align: center;
   }
 
   .tentang-section {
@@ -180,16 +190,23 @@ body {
   }
 
   .tentang-section h3 {
-    font-size: 20px;
+    font-size: var(--paragraph-p1-bold-font-size) !important;
+    font-weight: var( --paragraph-p1-bold-font-weight) !important;
   }
-
+  .tentang-section .teks{
+    margin-top: 1px !important;
+  }
   .tentang-section p {
-    font-size: 14px;
+    font-size: var(--paragraph-p3-light-font-size) !important;
+    font-weight: var( --paragraph-p3-light-font-weight) !important;
+    padding: 0 5%;
+
   }
 
-  .img-container img {
-    width: 100%;
-    height: auto;
+  .img-container{
+    width: 195px;
+    height: 195px;
+    margin-bottom: 1px !important;
   }
 
   .card-custom {

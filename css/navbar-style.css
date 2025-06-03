@@ -51,8 +51,8 @@ a.navbar-brand {
 }
 
 @media (min-width: 1024px) {
-    .navbar{
-        margin: 54px 5px !important;
+  .navbar{
+        margin: 40px 5px !important;
     }
   .donasi-button {
     background: #ff5722 !important;

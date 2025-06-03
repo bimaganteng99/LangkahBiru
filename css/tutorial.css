@@ -176,3 +176,170 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* VIDEO LIST */
+.custom-videoL {
+  /* height: 910px; */
+  margin: 200px auto;
+}
+.custom-videoL h4 {
+  color: #FFF;
+  font-size: var(--heading-h5-semibold-font-size);
+  font-weight: var(--heading-h5-semibold-font-weight);
+}
+.custom-videoL .card-body {
+  padding: 20px;
+}
+.custom-videoL .card{
+  background-color: transparent !important;
+}
+.card-body h5 {
+  font-size: var(--heading-h5-bold-font-size);
+  font-weight: var(--heading-h5-bold-font-weight);
+  color: #FFF !important;
+}
+.video-thumb{
+  border-radius: 16px;
+}
+
+.kard-1{
+  background-image: url(../image/terumbu_karang.png);
+  background-size: cover;
+}
+.kard-2{
+  background-image: url(../image/pelestarian.png);
+  background-size: cover;
+}
+.kard-3{
+  background-image: url(../image/konservasi.png);
+  background-size: cover;
+}
+.kard-4{
+  background-image: url(../image/sampah-plastik.png);
+  background-size: cover;
+}
+.kard-5{
+  background-image: url(../image/yuk-olah.png);
+  background-size: cover;
+}
+.kard-6{
+  background-image: url(../image/one-for-all.png);
+  background-size: cover;
+}
+.btn-sm {
+  background-color: #ED4418;
+  border-radius: 8px;
+  font-size: var(--paragraph-p5-medium-font-size);
+  font-weight: var(--paragraph-p5-medium-font-weight);
+  color: #FFF;
+}
+
+
+/* Play icon kiri bawah */
+.play-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 24px;
+  color: #fff;
+  background: #ED4418;
+  border-radius: 50%;
+  /* padding: 5px; */
+}
+
+/* Heart icon kanan atas */
+.favorite-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: #ED4418;;
+}
+
+/* VIDEO MANGROVE */
+.custom-mangrove .container{
+  width: 1200px !important;
+}
+.custom-mangrove h4 {
+  color: #FFF;
+  font-size: var(--heading-h5-semibold-font-size);
+  font-weight: var(--heading-h5-semibold-font-weight);
+}
+.custom-mangrove p{
+  color: #FFF;
+  font-size: var(--paragraph-p1-semibold-font-size);
+  font-weight: var(--paragraph-p1-semibold-font-weight);
+}
+.custom-mangrove .cap{
+  margin-top: 5px;
+  width: 980px;
+  color: #FFF !important;
+  font-size: var(--paragraph-p4-regular-font-size);
+  font-weight: var(--paragraph-p4-regular-font-weight);
+}
+.custom-mangrove .card-body {
+  padding: 20px;
+}
+.custom-mangrove .card{
+  background-color: transparent !important;
+}
+.card-body h5 {
+  font-size: var(--heading-h5-bold-font-size);
+  font-weight: var(--heading-h5-bold-font-weight);
+  color: #FFF !important;
+}
+.video-thumb{
+  border-radius: 16px;
+}
+.cust-capt p{
+  color: #FFF;
+  font-size: var(--paragraph-p4-medium-font-size);
+  font-weight: var(--paragraph-p4-medium-font-weight);
+}
+.cust-capt small{
+  color: #FFF;
+  font-size: var(--caption-c1-light-font-size);
+  font-weight: var(--caption-c1-light-font-weight);
+}
+
+.kardm-1{
+  background-image: url(../image/mt-laut.png);
+  background-size: cover;
+}
+.kardm-2{
+  background-image: url(../image/m-pesisir.png);
+  background-size: cover;
+}
+.kardm-3{
+  background-image: url(../image/m-imut.png);
+  background-size: cover;
+}
+.kardm-4{
+  background-image: url(../image/m-onefor.png);
+  background-size: cover;
+}
+.kardm-5{
+  background-image: url(../image/m-berdampak.png);
+  background-size: cover;
+}
+.kardm-6{
+  background-image: url(../image/m-bisa.png);
+  background-size: cover;
+}
+.kardm-7{
+  background-image: url(../image/m-tumbuhsatu.png);
+  background-size: cover;
+}
+.kardm-8{
+  background-image: url(../image/m-rendah.png);
+  background-size: cover;
+}
+@media (max-width: 768px){
+  .t-dis{
+    display: none;
+  }
+}
+@media (max-width: 430px){
+  .m-dis, .t-dis{
+    display: none;
+  }
+}

@@ -1,0 +1,1163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#2ea2b3, #012332);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.nav-container {
+  background-image: url("../image/awan.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 382px;
+  height: auto;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 200px;
+}
+
+.donasi-button {
+  background: #ff5722 !important;
+  color: white !important;
+  padding: 6px 12px !important;
+  border-radius: 16px !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  font-size: 14px;
+}
+
+.container h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container p {
+  color: white;
+  font-size: 12px;
+}
+
+.bingkai {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.bingkai-kiri {
+  width: 84px;
+  height: 167px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: linear-gradient(#36667c, #36667c);
+  display: flex;
+  flex-direction: column; /* arah vertikal */
+  justify-content: flex-end; /* dorong ke bawah */
+  align-items: center; /* tengah horizontal */
+  padding-bottom: 10px; /* jarak dari bawah */
+}
+
+.bingkai-kiri div {
+  width: 60px;
+  height: 25px;
+  border-radius: 25px;
+  background-color: #cde9ed;
+  padding: 5px 10px;
+}
+
+.bingkai-kiri p {
+  text-align: center;
+  font-size: 10px;
+  color: #ed4418;
+  margin: 0;
+  line-height: 0.8;
+}
+
+.bingkai-tengah {
+  width: 183px;
+  height: 119px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #36667c;
+  display: flex;
+  flex-direction: column; /* arah vertikal */
+  justify-content: flex-end; /* dorong ke bawah */
+  align-items: center; /* tengah horizontal */
+  padding-bottom: 10px; /* jarak dari bawah */
+}
+
+.bingkai-tengah h4 {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.bingkai-tengah div {
+  width: 154px;
+  height: 15px;
+  border-radius: 25px;
+  background-color: #cde9ed;
+  padding: 5px 10px;
+}
+
+.bingkai-tengah p {
+  font-size: 10px;
+  color: #ed4418;
+  margin: 0;
+  line-height: 0.4;
+}
+
+.bingkai-kanan {
+  width: 84px;
+  height: 167px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #36667c;
+  display: flex;
+  flex-direction: column; /* arah vertikal */
+  justify-content: flex-end; /* dorong ke bawah */
+  align-items: center; /* tengah horizontal */
+  padding-bottom: 10px; /* jarak dari bawah */
+}
+
+.bingkai-kanan div {
+  width: 60px;
+  height: 25px;
+  border-radius: 25px;
+  background-color: #cde9ed;
+  padding: 5px 10px;
+}
+
+.bingkai-kanan p {
+  text-align: center;
+  font-size: 10px;
+  color: #ed4418;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.quote {
+  width: 340px;
+  height: 75px;
+  background-color: #58b4c2;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.quote p {
+  text-align: center;
+  color: white;
+  padding-top: 13px;
+}
+
+.img-penyu {
+  background-image: url("../image/penyu.png");
+  background-size: cover;
+  background-position: center;
+  width: 340px;
+  height: 178px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.quotedua {
+  width: 340px;
+  height: 75px;
+  background-color: #f0633e;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.quotedua p {
+  text-align: center;
+  color: white;
+  padding-top: 25px;
+}
+
+.input-form {
+  width: 340px;
+  height: 757px;
+  background-color: #f9c1b2;
+  box-shadow: 0 10px 100px rgba(249, 193, 178, 0.5);
+  border-radius: 50px;
+  align-items: center;
+}
+
+.input-form h2 {
+  text-align: center;
+  padding-top: 30px;
+  color: #035f6d;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.input-form p {
+  text-align: center;
+  color: #58b4c2;
+  font-size: 14px;
+}
+
+.blob-card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #f9bdb5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* atau pakai bentuk blob */
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.blob-background {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  background-color: #1baacb;
+  border-radius: 50% 60% 50% 70% / 60% 40% 70% 40%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.blob-image {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  clip-path: ellipse(50% 40% at 50% 50%);
+  z-index: 2;
+}
+
+.badge {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  width: 80px;
+  height: 80px;
+  background: #f9d9d3;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  z-index: 3;
+  color: #ed4418;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.badge span {
+  font-weight: normal;
+  font-size: 12px;
+  color: #333;
+}
+
+.img-quote {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  z-index: 4;
+}
+
+.box-input {
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.box-input input,
+.box-input textarea {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px; /* Ini memberikan jarak antar input */
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.box-input textarea {
+  height: 50px; /* atau ukuran sesuai keinginan */
+  resize: vertical; /* biar user tetap bisa resize vertikal, bisa juga 'none' atau 'both' */
+}
+
+.box-input button {
+  width: 280px;
+  height: 30px;
+  background-color: #f0633e;
+  border: #9e2d10 solid 1px;
+  border-radius: 10px;
+}
+
+.aksinyata {
+  width: 382px;
+  color: white;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.title h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.title h5 {
+  font-size: 14px;
+  text-align: center;
+}
+
+.title p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 0 auto;
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: linear-gradient(to bottom, #81afb6, #ffffff);
+  color: black;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 240px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  color: #000;
+}
+
+.card span {
+  color: #000;
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 16px;
+  text-align: left;
+}
+
+.card-content h2 {
+  font-size: 18px;
+  margin: 8px 0;
+  font-weight: 700;
+}
+
+.card-content .location-date {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.lihat-selengkapnya {
+  width: 200px;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px solid #ed4418;
+  background-color: #ed4418;
+  font-size: 14px;
+  color: white;
+}
+
+.crt-container {
+  width: 382px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.crt-title h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.crt-title p {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.crt-gambar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 35px;
+  overflow: hidden; /* Penting: memotong bagian yang keluar */
+  position: relative;
+  height: 275px; /* kasih tinggi sebesar gambar tengah */
+}
+
+.crt-kiri,
+.crt-tengah,
+.crt-kanan {
+  position: absolute;
+  top: 0;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.crt-kiri {
+  width: 141px;
+  height: 240px;
+  background-color: #555;
+  border-radius: 20px;
+  flex-shrink: 0;
+  transform: translateX(10px) translateY(16px);
+  z-index: 1;
+  opacity: 0.6;
+  box-shadow: none;
+  background-image: url("../image/karang.png");
+}
+
+.crt-tengah {
+  width: 181px;
+  height: 275px;
+  background-color: #555;
+  border-radius: 20px;
+  transform: translateX(50%);
+  z-index: 2;
+  overflow: hidden;
+  background-image: url("../image/penyuplastik.png");
+}
+
+.crt-kanan {
+  width: 141px;
+  height: 240px;
+  background-color: #555;
+  border-radius: 20px;
+  transform: translateX(225px) translateY(16px);
+  z-index: 1;
+  opacity: 0.6;
+  box-shadow: none;
+  background-image: url("../image/penyukecil.png");
+}
+
+.ws-container {
+  position: relative;
+  color: white;
+  margin-top: 70px;
+  align-items: center;
+  text-align: center;
+}
+
+.ws-wave {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .wavedua, .wavetiga {
+    display: none;
+  }
+}
+
+.ws-title h2 {
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  top: 90px; /* sesuaikan agar masuk gelombang */
+  left: 65px;
+}
+
+.ws-title p {
+  font-size: 14px;
+  position: absolute;
+  top: 120px; /* sesuaikan agar masuk gelombang */
+  left: 100px;
+}
+
+.ws-img-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  bottom: 30px;
+}
+
+.ws-img {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding-bottom: 10px;
+  flex-wrap: nowrap;
+  width: max-content; /* atau bisa juga auto */
+}
+
+.kartu {
+  min-width: 103px;
+  height: 150px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.donasi-container {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.donasi-title {
+  text-align: center;
+}
+
+.donasi-title h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.donasi-title p {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.form-donasi {
+  width: 246px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #abdae1;
+  margin: 0 auto;
+  align-items: center;
+  border: solid 4px #f0633e;
+}
+
+.donasi-secondary {
+  width: 238px;
+  height: 80px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.donasi-secondary h4 {
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  color: #ed4418;
+  padding-top: 20px;
+}
+
+.form-donasi p {
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.nominal {
+  width: 97px;
+  height: 19px;
+  background: linear-gradient(#035f6d, #ffffff);
+  border-radius: 5px;
+  border: solid 1px #f0633e;
+  color: #f0633e;
+  font-size: 12px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.donasi-submit {
+  width: 200px;
+  height: 16px;
+  background-color: #f0633e;
+  color: red;
+  border-radius: 15px;
+  border: solid 1px red;
+  font-size: 10px;
+  margin-left: 20px;
+  margin-top: 85px;
+}
+
+.footer {
+  height: 78px;
+  background-color: #001a2a;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: auto;
+}
+
+.footer p {
+  color: white;
+  margin-top: 20px;
+  padding: auto;
+  font-size: 14px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .nav-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 768px;
+    height: auto;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+
+  .container h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .container p {
+    color: white;
+    font-size: 24px;
+  }
+
+  .bingkai {
+    gap: 20px;
+  }
+
+  .bingkai-kiri {
+    width: 187px;
+    height: 286px;
+    border-top-right-radius: 120px;
+  }
+
+  .bingkai-kiri div {
+    width: 140px;
+    height: 28px;
+  }
+
+  .bingkai-kiri p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 2px;
+  }
+
+  .bingkai-tengah {
+    width: 389px;
+    height: 152px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+  }
+
+  .bingkai-tengah h4 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .bingkai-tengah div {
+    width: 320px;
+    height: 28px;
+  }
+
+  .bingkai-tengah p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 5px;
+  }
+
+  .bingkai-kanan {
+    width: 187px;
+    height: 286px;
+    border-top-left-radius: 120px;
+  }
+
+  .bingkai-kanan div {
+    width: 140px;
+    height: 28px;
+  }
+
+  .bingkai-kanan p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 0px;
+  }
+
+  .quote-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  .quote {
+    width: 187px;
+    height: 116px;
+  }
+
+  .quote p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 30px;
+  }
+
+  .img-penyu {
+    width: 320px;
+    height: 116px;
+  }
+
+  .quotedua {
+    width: 187px;
+    height: 116px;
+  }
+
+  .quotedua p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 36px;
+  }
+
+  .input-form {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .input-wrapper {
+    display: flex;
+  }
+
+  .aksinyata {
+    width: 80%;
+    height: auto;
+  }
+
+  .title h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .title h5 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .title p {
+    font-size: 18px;
+  }
+
+  .crt-container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .crt-title {
+    font-size: 36px;
+  }
+
+  .crt-title p {
+    font-size: 16px;
+  }
+
+  .crt-gambar {
+    height: 500px;
+  }
+
+  .crt-kiri {
+    width: 200px;
+    height: 400px;
+    transform: translateX(10px) translateY(30px);
+  }
+
+  .crt-tengah {
+    width: 300px;
+    height: 460px;
+  }
+
+  .crt-kanan {
+    width: 200px;
+    height: 400px;
+    transform: translateX(400px) translateY(30px);
+  }
+
+  .wavesatu, .wavetiga {
+    display: none;
+  }
+
+  .ws-title h2 {
+    font-size: 36px;
+    top: 220px;
+    left: 220px;
+  }
+
+  .ws-title p {
+    font-size: 20px;
+    top: 270px;
+    left: 280px;
+  }
+
+  .kartu {
+    width: 180px;
+    height: 270px;
+  }
+
+  .donasi-container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .donasi-title h2 {
+    font-size: 40px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .donasi-title p {
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+  .form-donasi {
+    width: 460px;
+    height: 500px;
+  }
+
+  .donasi-secondary {
+    width: 450px;
+    height: 100px;
+  }
+
+  .donasi-secondary h4 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .form-donasi p {
+    font-size: 18px;
+  }
+
+  .nominal {
+    width: 160px;
+    height: 25px;
+    font-size: 16px;
+  }
+
+  .donasi-submit {
+    width: 300px;
+    height: 26px;
+    font-size: 16px;
+    margin-top: 220px;
+    margin-left: 78px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-container {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 140px;
+  }
+  .container h2 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+  }
+
+  .container p {
+    color: white;
+    font-size: 30px;
+  }
+
+  .bingkai {
+    gap: 30px;
+  }
+
+  .bingkai-kiri {
+    width: 187px;
+    height: 286px;
+    border-top-right-radius: 120px;
+  }
+
+  .bingkai-kiri div {
+    width: 140px;
+    height: 28px;
+  }
+
+  .bingkai-kiri p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 2px;
+  }
+
+  .bingkai-tengah {
+    width: 389px;
+    height: 152px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+  }
+
+  .bingkai-tengah h4 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .bingkai-tengah div {
+    width: 320px;
+    height: 28px;
+  }
+
+  .bingkai-tengah p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 5px;
+  }
+
+  .bingkai-kanan {
+    width: 187px;
+    height: 286px;
+    border-top-left-radius: 120px;
+  }
+
+  .bingkai-kanan div {
+    width: 140px;
+    height: 28px;
+  }
+
+  .bingkai-kanan p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 0px;
+  }
+
+  .quote-container {
+    display: flex;
+    gap: 30px;
+    margin-left: 198px;
+  }
+
+  .quote {
+    width: 187px;
+    height: 116px;
+  }
+
+  .quote p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 30px;
+  }
+
+  .img-penyu {
+    width: 393px;
+    height: 116px;
+  }
+
+  .quotedua {
+    width: 187px;
+    height: 116px;
+  }
+
+  .quotedua p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 36px;
+  }
+
+  .input-form {
+    width: 840px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .input-wrapper {
+    display: flex;
+  }
+
+  .aksinyata {
+    width: 40%;
+    height: auto;
+  }
+
+  .title h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .title h5 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .title p {
+    font-size: 18px;
+  }
+
+  .crt-container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 120px;
+  }
+
+  .crt-title h2 {
+    font-size: 48px;
+  }
+
+  .crt-title p {
+    font-size: 20px;
+  }
+
+  .crt-gambar {
+    height: 500px;
+  }
+
+  .crt-kiri {
+    width: 200px;
+    height: 400px;
+    transform: translateX(170px) translateY(30px);
+  }
+
+  .crt-tengah {
+    width: 300px;
+    height: 460px;
+    transform: translateX(356px) translateY(10px);
+  }
+
+  .crt-kanan {
+    width: 200px;
+    height: 400px;
+    transform: translateX(640px) translateY(30px);
+  }
+
+  .ws-container {
+    margin-bottom: 120px;
+  }
+
+  .wavesatu, .wavedua {
+    display: none;
+  }
+
+  .ws-title h2 {
+    font-size: 48px;
+    top: 220px;
+    left: 420px;
+  }
+
+  .ws-title p {
+    font-size: 30px;
+    top: 270px;
+    left: 480px;
+  }
+
+  .kartu {
+    width: 290px;
+    height: 420px;
+  }
+
+  .donasi-container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .donasi-title h2 {
+    font-size: 40px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .donasi-title p {
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+  .form-donasi {
+    width: 460px;
+    height: 500px;
+  }
+
+  .donasi-secondary {
+    width: 450px;
+    height: 100px;
+  }
+
+  .donasi-secondary h4 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .form-donasi p {
+    font-size: 18px;
+  }
+
+  .nominal {
+    width: 160px;
+    height: 25px;
+    font-size: 16px;
+  }
+
+  .donasi-submit {
+    width: 300px;
+    height: 26px;
+    font-size: 16px;
+    margin-top: 220px;
+    margin-left: 78px;
+  }
+}
