@@ -1,0 +1,629 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 375px;
+  height: auto;
+  background-image: url("../image/bgbody.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.navbar-wrapper {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.nav-container {
+  margin-bottom: 0;
+}
+
+.container {
+  width: 300px;
+  height: 130px;
+  background-color: #cde9ed;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-top: 0;
+  padding-top: 0;
+  color: black;
+}
+
+.container h2 {
+  margin-top: 10px;
+}
+
+.container p {
+  font-size: 12px;
+}
+
+.kontak-container {
+  width: 350px;
+  height: 850px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.kontak-wrapper {
+  width: 320px;
+  height: 700px;
+  background-color: #035f6d;
+  border-radius: 24px;
+  border: solid 10px #ffe375cc;
+  margin: 0 auto;
+}
+
+.kontak-input {
+  width: 270px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  background-color: #abdae1;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-top: 30px;
+  gap: 10px;
+}
+
+.kontak-input input {
+  width: 180px;
+  height: 30px;
+  border-radius: 20px;
+  border: solid 1px grey;
+  padding-left: 10px;
+  margin-left: 45px;
+}
+
+textarea {
+  width: 180px;
+  height: 100px;
+  border-radius: 20px;
+  border: solid 1px grey;
+  padding-left: 10px;
+  margin-left: 45px;
+}
+
+.kontak-input button {
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  border: #ed4418;
+  background-color: #ed4418;
+  color: white;
+  margin-left: 90px;
+}
+
+.kontak-wrapper h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.kontak-wrapper p {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.aksi-wrapper {
+  width: 350px;
+  height: 220px;
+  margin: 0 auto;
+  background-color: #81c7d1;
+  border-radius: 24px;
+  margin-top: 80px;
+  color: black;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.bersihsatu {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin-top: -90px;
+}
+
+.bersihdua {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin-top: -90px;
+}
+
+.aksi-wrapper h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: end;
+  margin-top: -40px;
+}
+
+.aksi-wrapper p {
+  font-size: 14px;
+}
+
+.sahabat-container {
+  width: 90%;
+  height: 540px;
+  border-radius: 12px;
+  background-color: #abdae199;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  color: black;
+}
+
+.sahabat-container h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.sahabat-wrapper {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.sahabat {
+  width: 160px;
+  height: 150px;
+  background: linear-gradient(#035f6d, #ffffff);
+  border-radius: 12px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: visible;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.sahabat-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: #035f6d;
+  position: absolute;
+  top: -30px;
+  left: 38%;
+}
+
+.sahabat h4 {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.teman-container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.teman-title {
+  width: 100%;
+  height: 36px;
+  background-color: #ffeeac;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.teman-title p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.teman-img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.teman-img img {
+  width: 170px;
+  height: 170px;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 78px;
+  background-color: #001a2a;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: auto;
+}
+
+.footer p {
+  color: white;
+  margin-top: 20px;
+  padding: auto;
+  font-size: 14px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+/* Tablet View (min-width: 768px) */
+@media (min-width: 768px) {
+  body {
+    width: auto; /* Take full width */
+  }
+
+  .container {
+    width: 600px; /* Adjust width for tablet */
+    height: 150px;
+    margin: 0 auto; /* Center the container */
+  }
+
+  .container h2 {
+    font-size: 24px;
+  }
+
+  .container p {
+    font-size: 16px;
+  }
+
+  .kontak-container {
+    width: 700px; /* Adjust width for tablet */
+    margin-top: 150px;
+  }
+
+  .kontak-wrapper {
+    width: 650px; /* Adjust width */
+    height: auto;
+    padding: 30px 0;
+  }
+
+  .kontak-wrapper h4 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+
+  .kontak-wrapper p {
+    font-size: 16px;
+  }
+
+  .kontak-input {
+    width: 500px; /* Wider input section */
+    padding: 40px 0;
+    gap: 15px;
+  }
+
+  .kontak-input input,
+  textarea {
+    width: calc(100% - 100px); /* Wider inputs */
+    max-width: 400px;
+    height: 40px;
+    padding-left: 15px;
+  }
+
+  textarea {
+    height: 120px;
+  }
+
+  .kontak-input button {
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+  }
+
+  .aksi-wrapper {
+    width: 650px;
+    height: 270px;
+    margin: 0 auto;
+    background-color: #81c7d1;
+    border-radius: 24px;
+    margin-top: 80px;
+    color: black;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .bersihsatu,
+  .bersihdua {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-top: -90px;
+  }
+
+  .aksi-wrapper h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: end;
+    margin-top: -200px;
+  }
+
+  .aksi-wrapper p {
+    width: auto;
+    font-size: 16px;
+    text-align: end;
+    padding-left: 300px;
+  }
+
+  .sahabat-container {
+    width: 90%;
+    max-width: 700px; /* Limit max width for tablet */
+    height: 460px;
+    padding-bottom: 50px;
+  }
+
+  .sahabat-container h2 {
+    font-size: 24px;
+    padding-bottom: 80px;
+  }
+
+  .sahabat-wrapp {
+    display: grid; /* Use grid for more control */
+    grid-template-columns: repeat(3, 3fr); /* 2 columns */
+    gap: 20px; /* Adjust gap */
+    padding: 0 50px; /* Add horizontal padding */
+  }
+
+  .sahabat {
+    width: 180px; /* Let grid handle width */
+    height: 180px; /* Slightly taller */
+  }
+
+  .sahabat-circle {
+    width: 60px; /* Larger circle */
+    height: 60px;
+    top: -40px;
+  }
+
+  .sahabat h4 {
+    font-size: 16px;
+  }
+
+  .teman-container {
+    width: 100%;
+  }
+
+  .teman-title {
+    width: 100%;
+    height: 45px;
+  }
+
+  .teman-title p {
+    font-size: 20px;
+  }
+
+  .teman-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for tablet */
+    gap: 50px;
+  }
+
+  .teman-img img {
+    width: 200px; /* Fill grid cell */
+    height: 200px; /* Adjust height */
+  }
+
+  .footer {
+    height: 78px;
+    background-color: #001a2a;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: auto;
+  }
+
+  .footer p {
+    color: white;
+    margin-top: 20px;
+    padding: auto;
+    font-size: 14px;
+  }
+
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+  }
+}
+
+/* Desktop View (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .body {
+    width: auto;
+  }
+
+  .container {
+    width: 1100px; /* Wider for desktop */
+    height: 180px;
+  }
+
+  .container h2 {
+    font-size: 32px;
+  }
+
+  .container p {
+    font-size: 18px;
+  }
+
+  .kontak-container {
+    width: 960px; /* Wider for desktop */
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Space between text and form */
+  }
+
+  .kontak-wrapper {
+    width: 700px; /* Adjust width */
+    height: auto;
+    padding: 40px 0;
+    flex-direction: column; /* Stack internally */
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .kontak-wrapper h4 {
+    font-size: 26px;
+    margin-top: 0; /* Adjust as needed */
+    margin-bottom: 20px;
+  }
+
+  .kontak-wrapper p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .kontak-input {
+    width: 500px; /* Wider input section */
+    padding: 50px 50px;
+    margin: 0 auto;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  .kontak-input input,
+  textarea {
+    width: 100%;
+    max-width: 300px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  .kontak-input button {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 130px;
+  }
+
+  .aksi-wrapper {
+    width: 900px; /* Wider for desktop */
+    height: 270px;
+    padding: 50px 40px;
+    flex-direction: row;
+    justify-content: space-evenly; /* Evenly distribute items */
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .bersihsatu,
+  .bersihdua {
+    width: 300px; /* Larger images */
+    height: 300px;
+    margin-right: 40px;
+  }
+
+  .aksi-wrapper h4 {
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+
+  .aksi-wrapper p {
+    font-size: 18px;
+  }
+
+  .sahabat-container {
+    width: 90%;
+    max-width: 1000px; /* Even wider for desktop */
+    padding-bottom: 60px;
+  }
+
+  .sahabat-container h2 {
+    font-size: 32px;
+    padding-bottom: 100px;
+  }
+
+  .sahabat-wrapp {
+    display: grid; /* Use grid for more control */
+    grid-template-columns: repeat(3, 3fr); /* 2 columns */
+    gap: 20px; /* Adjust gap */
+    padding: 0 210px; /* Add horizontal padding */
+    margin: 0 auto;
+  }
+
+  .sahabat {
+    height: 200px; /* Taller */
+  }
+
+  .sahabat-circle {
+    width: 70px; /* Larger circle */
+    height: 70px;
+    top: -45px;
+  }
+
+  .sahabat h4 {
+    font-size: 18px;
+  }
+
+  .teman-container {
+    width: 100%;
+  }
+
+  .teman-title {
+    height: 50px;
+  }
+
+  .teman-title p {
+    font-size: 22px;
+  }
+
+  .teman-img {
+    grid-template-columns: repeat(3, 1fr); /* 4 columns for desktop */
+    gap: 25px;
+  }
+
+  .teman-img img {
+    height: 200px; /* Adjust height */
+  }
+
+  .footer {
+    height: 78px;
+    background-color: #001a2a;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .footer p {
+    color: white;
+    margin-top: 30px;
+    padding: auto;
+  }
+
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+  }
+}
